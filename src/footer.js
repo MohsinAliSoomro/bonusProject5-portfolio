@@ -2,22 +2,22 @@ import React from 'react'
 
 export default function Footer(){
     return(
-        <div class="row">
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="https://google.com" class="btn btn-primary">Go somewhere</a>
+        <div className="row">
+  <div className="col-sm-6">
+    <div className="card">
+      <div className="card-body">
+        <h5 className="card-title">Special title treatment</h5>
+        <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="https://google.com" className="btn btn-primary">Go somewhere</a>
       </div>
     </div>
   </div>
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="https://google.com" class="btn btn-primary">Go somewhere</a>
+  <div className="col-sm-6">
+    <div className="card">
+      <div className="card-body">
+        <h5 className="card-title">Special title treatment</h5>
+        <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="https://google.com" className="btn btn-primary">Go somewhere</a>
       </div>
     </div>
   </div>

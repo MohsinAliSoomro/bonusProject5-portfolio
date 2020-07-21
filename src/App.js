@@ -7,6 +7,7 @@ import MainGrid from './mainGrid'
 import Skills from './Skills'
 import Navbar from './navbar';
 import Footer from './footer';
+import Portfolio from './portfolio';
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
       <Navbar />
       <MainGrid />
       <Skills />
+      <Portfolio />
       <Footer />
     </div>
   );

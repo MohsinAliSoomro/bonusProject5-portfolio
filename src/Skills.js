@@ -1,5 +1,5 @@
 import React from 'react'
-import {CodeIcon} from '@primer/octicons-react'
+import {CodeIcon,DeviceMobileIcon,ToolsIcon} from '@primer/octicons-react'
 
 const Skill = () => {
     return (
@@ -22,19 +22,23 @@ const Skill = () => {
                 <div className="col">
                     <div className="text-center" >
                         <CodeIcon size={128} />
-                        <p  className="h1">Web Application Development</p>
+                        <p  className="h3">Web Application Development</p>
+                        <p>Fast, responsive and engaging apps that bring your ideas to life.</p>
                     </div>
                 </div>
                 <div className="col">
                 <div className="text-center" >
-                        <CodeIcon size={128} />
-                        <p  className="h1">Web Application Development</p>
+                <DeviceMobileIcon size={124} />
+                        <p  className="h3">Mobile Application Development</p>
+                        <p>Cross-platform apps built with efficiency and speed for Android and iOS at once.</p>
                     </div>
                 </div>
                 <div className="col">
                 <div className="text-center" >
-                        <CodeIcon size={128} />
-                        <p  className="h1">Web Application Development</p>
+                <ToolsIcon size={128} />
+                        <p  className="h3">API Integration & Development</p>
+                        <p>REST and SOAP API integration.
+REST API development with Node.js and Loopback.</p>
                     </div>
                 </div>
             </div>

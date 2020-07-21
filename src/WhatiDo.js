@@ -1,7 +1,6 @@
 import React from 'react'
 import {CodeIcon} from '@primer/octicons-react'
 
-
 const MainGrid = () => {
     return (
     <div

@@ -1,9 +1,14 @@
 import React from 'react';
 import './App.css';
+import  'bootstrap-4-react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import MainGrid from './mainGrid'
-import  'bootstrap-4-react';
+import WhatiDo from './WhatiDo'
+import Navbar from './navbar';
+import Footer from './footer';
+
+
 function App() {
 
   AOS.init({
@@ -31,7 +36,10 @@ function App() {
 
   return (
     <div >
+      <Navbar />
       <MainGrid />
+      <WhatiDo />
+      <Footer />
     </div>
   );
 }

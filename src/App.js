@@ -4,7 +4,7 @@ import  'bootstrap-4-react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import MainGrid from './mainGrid'
-import WhatiDo from './WhatiDo'
+import WhatiDo from './whatiDo'
 import Navbar from './navbar';
 import Footer from './footer';
 

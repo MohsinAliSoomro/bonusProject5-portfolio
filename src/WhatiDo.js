@@ -28,14 +28,15 @@ const MainGrid = () => {
                     </div>
                 </div>
                 <div className="col">
-                <div className="rounded-circle bg-dark">
-                        <h1>Heelo</h1>
+                <div className="text-center" >
+                        <CodeIcon size={128} />
+                        <p  className="h1">Web Application Development</p>
                     </div>
-                    
                 </div>
                 <div className="col">
-                <div className="rounded-circle bg-dark">
-                        <h1>Heelo</h1>
+                <div className="text-center" >
+                        <CodeIcon size={128} />
+                        <p  className="h1">Web Application Development</p>
                     </div>
                 </div>
             </div>

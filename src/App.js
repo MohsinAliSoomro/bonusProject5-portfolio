@@ -4,7 +4,7 @@ import  'bootstrap-4-react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import MainGrid from './mainGrid'
-import WhatiDo from './whatiDo'
+import Skills from './Skills'
 import Navbar from './navbar';
 import Footer from './footer';
 
@@ -38,7 +38,7 @@ function App() {
     <div >
       <Navbar />
       <MainGrid />
-      <WhatiDo />
+      <Skills />
       <Footer />
     </div>
   );

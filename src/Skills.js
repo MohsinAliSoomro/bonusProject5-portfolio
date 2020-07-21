@@ -1,7 +1,7 @@
 import React from 'react'
 import {CodeIcon} from '@primer/octicons-react'
 
-const MainGrid = () => {
+const Skill = () => {
     return (
     <div
         data-aos="fade-right"
@@ -44,4 +44,4 @@ const MainGrid = () => {
     )
 }
 
-export default MainGrid
+export default Skill

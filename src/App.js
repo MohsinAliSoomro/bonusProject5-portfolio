@@ -8,7 +8,7 @@ import Skills from './Skills'
 import Navbar from './navbar';
 import Footer from './footer';
 import Portfolio from './portfolio';
-
+import Aboutme from './aboutme'
 
 function App() {
 
@@ -36,11 +36,12 @@ function App() {
   });
 
   return (
-    <div >
+    <div style={{width:'100%'}}>
       <Navbar />
       <MainGrid />
       <Skills />
       <Portfolio />
+      <Aboutme />
       <Footer />
     </div>
   );

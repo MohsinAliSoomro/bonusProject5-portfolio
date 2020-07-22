@@ -4,8 +4,9 @@ import Image from './my.jpg'
 import Typist from 'react-typist';
 const MainGrid = () => {
     return (
+        <div style={{width:'100%'}}>
     <div
-        data-aos="fade-right"
+        data-aos="slide-down"
         data-aos-offset="200"
         data-aos-delay="50"
         data-aos-duration="1000"
@@ -22,7 +23,7 @@ const MainGrid = () => {
             <div className="row mt-5">
                 <div className="col mt-5">
                     <div 
-                    data-aos="zoom-out"
+                    data-aos="slide-up"
                     data-aos-offset="200"
                     data-aos-delay="50"
                     data-aos-duration="1000"
@@ -32,16 +33,20 @@ const MainGrid = () => {
                     >
                     <img width="20%" className="img-responsive shadow p-3 mb-5 bg-white rounded" src={Image} alt="develper" />
                     </div>
+                    <div style={{height:200}}>
                     <Typist>
                     <p className="h1 mt-5 text-dark"> Full Stack Developer </p>
                     <p> I am Mohsin Ali Full stack developer in
                     this technologies <br /> React.js, MongoDb, Express.js ,Node.js
-                </p></Typist>
+                    </p>
+                </Typist>
+                </div>
                 </div>
             </div>
             
         </div>
         </div>
+    </div>
     </div>
     )
 }

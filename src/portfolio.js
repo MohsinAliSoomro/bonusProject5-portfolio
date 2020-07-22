@@ -6,9 +6,9 @@ import Shoe from './shoeshop.PNG'
 const Portfolio = () => {
     
     return (
-        <div style={{backgroundImage: 'linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)'}}>
+        <div  style={{width:'100%',backgroundImage: 'linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)'}}>
         <div
-            data-aos="fade-left"
+            data-aos="slide-up"
             data-aos-offset="200"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"

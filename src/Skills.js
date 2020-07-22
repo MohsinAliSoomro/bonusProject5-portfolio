@@ -3,8 +3,9 @@ import {CodeIcon,DeviceMobileIcon,ToolsIcon} from '@primer/octicons-react'
 
 const Skill = () => {
     return (
+        <div className="">
     <div 
-        data-aos="fade-right"
+        data-aos="slide-up"
         data-aos-offset="200"
         data-aos-duration="1000"
         data-aos-easing="ease-in-out"
@@ -45,7 +46,7 @@ REST API development with Node.js and Loopback.</p>
             </div>
         </div>
         </div>
-    
+        </div>
     )
 }
 

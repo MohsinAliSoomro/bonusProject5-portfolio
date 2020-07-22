@@ -6,7 +6,6 @@ import 'aos/dist/aos.css';
 import MainGrid from './mainGrid'
 import Skills from './Skills'
 import Navbar from './navbar';
-import Footer from './footer';
 import Portfolio from './portfolio';
 import Aboutme from './aboutme'
 
@@ -42,7 +41,6 @@ function App() {
       <Skills />
       <Portfolio />
       <Aboutme />
-      <Footer />
     </div>
   );
 }

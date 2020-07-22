@@ -4,7 +4,9 @@ import Expense from './expense.PNG'
 import Shoe from './shoeshop.PNG'
 
 const Portfolio = () => {
+    
     return (
+        <div style={{backgroundImage: 'linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)'}}>
         <div
             data-aos="fade-left"
             data-aos-offset="200"
@@ -21,7 +23,7 @@ const Portfolio = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col">
+                    <div className="col-sm-12 col-md-4 col-lg-4">
                         <div className="card shadow-sm p-3 mb-5 bg-white rounded" >
                             <img className="card-img-top" src={Covid} alt="covid" />
                             <div className="card-body">
@@ -31,7 +33,7 @@ const Portfolio = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col ">
+                    <div className="col-sm-12 col-md-4 col-lg-4">
                         <div className="card shadow-sm p-3 mb-5 bg-white rounded" >
                             <img className="card-img-top" src={Expense} alt="covid" />
                             <div className="card-body">
@@ -41,7 +43,7 @@ const Portfolio = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col-sm-12 col-md-4 col-lg-4">
                         <div className="card shadow-sm p-3 mb-5 bg-white rounded" >
                             <img className="card-img-top" src={Shoe} alt="Covid" />
                             <div className="card-body">
@@ -54,7 +56,7 @@ const Portfolio = () => {
                 </div>
             </div>
         </div>
-
+        </div>
     )
 }
 
